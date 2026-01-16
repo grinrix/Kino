@@ -1,4 +1,5 @@
 package cinema.domain;
 
-public class Exportable {
+public interface Exportable {
+    String toCsv();
 }
