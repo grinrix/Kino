@@ -1,11 +1,9 @@
 package cinema.service;
 
-import cinema.domain.Bookable;
-import cinema.domain.Exportable;
 import cinema.domain.Seat;
 import cinema.domain.Show;
 
-public class TicketService implements Bookable{
+public class TicketService {
 
     public boolean reserveTicket(Show show, int row, int seatNumber) {
 

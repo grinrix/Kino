@@ -1,5 +1,6 @@
 package cinema.domain;
 import java.util.List;
+import cinema.service.SeatMapService;
 
 public class Show implements Exportable {
     private  String movieTitle;
